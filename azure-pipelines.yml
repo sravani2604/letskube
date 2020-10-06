@@ -6,7 +6,7 @@ trigger:
 - master
 
 resources:
-- repo: sravani2604/letskube
+- repo: self
 
 variables:
   tag: '$(Build.BuildId)'
