@@ -10,7 +10,7 @@ pool:
   vmImage: 'windows-latest'
 
 variables:
-  solution: '**/LetsKube.csproj*.sln'
+  solution: 'LetsKube.csproj'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
 
